@@ -1,4 +1,4 @@
-# Women Tech Mentoring Community
+# Women Tech Mentor & Peer Community
 > A supportive community for working female professionals in career transitioning. 
 > Of women, by women, for women. 
 
