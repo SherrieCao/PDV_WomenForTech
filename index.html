@@ -23,16 +23,12 @@
         <!-- TITLE -->
         <div class="col-lg-4 offset-lg-1 mx-0 px-0">
           <div id="title-container">
-            <img class="covid-image" src="./assets/woman-tech-worker.png" />
-            <h2>pharetra diam</h2>
-            <h3>Self Checker Form</h3>
+            <img class="covid-image" src="./assets/woman-tech-worker-3.png" />
+            <h2>Path To Software</h2>
+            <h3>Assessment</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              We respect your experience, and we are here to tailor your career development! Please tell us your background for us to better serve your effort and time. <br>
+              Don't worry! We only ask for necessary information, and let us know any point you are uncomfortable with these questions. 
             </p>
           </div>
         </div>
@@ -59,10 +55,46 @@
               <div id="steps-container">
                 <div class="step">
                   <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    What's the highest level of education you've attained?
                   </h4>
                   <div class="form-check ps-0 q-box">
                     <div class="q-box__question">
+                      <input
+                        class="form-check-input question__input"
+                        id="q_1_highschool"
+                        name="q_1"
+                        type="radio"
+                        value="HighSchool"
+                      />
+                      <label
+                        class="form-check-label question__label"
+                        for="q_1_highschool"
+                        >High School</label
+                      >
+                      <input
+                        class="form-check-input question__input"
+                        id="q_1_twoyearcollege"
+                        name="q_1"
+                        type="radio"
+                        value="TwoYearCollege"
+                      />
+                      <label
+                        class="form-check-label question__label"
+                        for="q_1_twoyearcollege"
+                        >Two-Year College</label
+                      >
+                      <input
+                        class="form-check-input question__input"
+                        id="q_1_fouryearcollege"
+                        name="q_1"
+                        type="radio"
+                        value="FourYearCollege"
+                      />
+                      <label
+                        class="form-check-label question__label"
+                        for="q_1_fouryearcollege"
+                        >Four-Year College</label
+                      >
                       <input
                         class="form-check-input question__input"
                         id="q_1_yes"
@@ -73,101 +105,80 @@
                       <label
                         class="form-check-label question__label"
                         for="q_1_yes"
-                        >Yes</label
+                        >Graduate Program</label
                       >
                     </div>
                     <div class="q-box__question">
                       <input
                         checked
                         class="form-check-input question__input"
-                        id="q_1_no"
+                        id="q_1_other"
                         name="q_1"
                         type="radio"
-                        value="No"
+                        value="Other"
                       />
                       <label
                         class="form-check-label question__label"
                         for="q_1_no"
-                        >No</label
+                        >Other</label
                       >
                     </div>
                   </div>
                 </div>
                 <div class="step">
                   <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Let us know any educational background you'd like to share
                   </h4>
                   <div class="form-check ps-0 q-box">
-                    <div class="q-box__question">
+                    <div class="mt-1">
+                      <label class="form-label">Program/School</label>
                       <input
-                        class="form-check-input question__input"
-                        id="q_2_yes"
-                        name="q_2"
-                        type="radio"
-                        value="Yes"
+                        class="form-control"
+                        id="education_program_school"
+                        name="education_program_school"
+                        type="text"
                       />
-                      <label
-                        class="form-check-label question__label"
-                        for="q_2_yes"
-                        >Yes</label
-                      >
-                    </div>
-                    <div class="q-box__question">
-                      <input
-                        checked
-                        class="form-check-input question__input"
-                        id="q_2_no"
-                        name="q_2"
-                        type="radio"
-                        value="No"
-                      />
-                      <label
-                        class="form-check-label question__label"
-                        for="q_2_no"
-                        >No</label
-                      >
                     </div>
                   </div>
                 </div>
                 <div class="step">
                   <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Great! Glad to see you invest in yourself.
+                    Tell us anything you'd like to share about your career journey. 
                   </h4>
                   <div class="form-check ps-0 q-box">
-                    <div class="q-box__question">
+                    <div class="mt-1">
+                      <label class="form-label">Job Title</label>
                       <input
-                        class="form-check-input question__input"
-                        id="q_3_yes"
-                        name="q_3"
-                        type="radio"
-                        value="Yes"
+                        class="form-control"
+                        id="career_title"
+                        name="career_title"
+                        type="text"
                       />
-                      <label
-                        class="form-check-label question__label"
-                        for="q_3_yes"
-                        >Yes</label
-                      >
                     </div>
-                    <div class="q-box__question">
+                    <div class="mt-2">
+                      <label class="form-label">Company/Organization</label>
                       <input
-                        checked
-                        class="form-check-input question__input"
-                        id="q_3_no"
-                        name="q_3"
-                        type="radio"
-                        value="No"
+                        class="form-control"
+                        id="career_company"
+                        name="career_company"
+                        type="text"
                       />
-                      <label
-                        class="form-check-label question__label"
-                        for="q_3_no"
-                        >No</label
-                      >
+                    </div>
+                    <div class="mt-2">
+                      <label class="form-label">Duration</label>
+                      <input
+                        class="form-control"
+                        id="career_company"
+                        name="career_company"
+                        type="text"
+                      />
                     </div>
                   </div>
                 </div>
                 <div class="step">
                   <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    From our data, we think these are your skillsets. Do they look correct?
                   </h4>
                   <div class="row">
                     <div class="col-lg-6">
@@ -183,7 +194,7 @@
                           <label
                             class="form-check-label question__label"
                             for="q_4_uk"
-                            >UK</label
+                            >SQL</label
                           >
                         </div>
                       </div>
@@ -199,7 +210,7 @@
                           <label
                             class="form-check-label question__label"
                             for="q_4_us"
-                            >US</label
+                            >Python</label
                           >
                         </div>
                       </div>
@@ -215,7 +226,7 @@
                           <label
                             class="form-check-label question__label"
                             for="q_4_br"
-                            >Brazil</label
+                            >Business Writing</label
                           >
                         </div>
                       </div>
@@ -233,7 +244,7 @@
                           <label
                             class="form-check-label question__label"
                             for="q_4_de"
-                            >Germany</label
+                            >Qualitative Research</label
                           >
                         </div>
                       </div>
@@ -249,7 +260,7 @@
                           <label
                             class="form-check-label question__label"
                             for="q_4_in"
-                            >India</label
+                            >Economic Analysis</label
                           >
                         </div>
                       </div>
@@ -265,7 +276,7 @@
                           <label
                             class="form-check-label question__label"
                             for="q_4_eu"
-                            >Europe</label
+                            >MATLAB</label
                           >
                         </div>
                       </div>
@@ -283,8 +294,7 @@
                           <label
                             class="form-check-label question__label"
                             for="q_4_none"
-                            >I did not travelled to any of these
-                            countries</label
+                            >I'd like to add more skills</label
                           >
                         </div>
                       </div>
@@ -293,7 +303,7 @@
                 </div>
                 <div class="step">
                   <h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    Do you have specific job goals? 
                   </h4>
                   <div class="row">
                     <div class="form-check ps-0 q-box">
@@ -308,7 +318,7 @@
                         <label
                           class="form-check-label question__label"
                           for="q_5_breathing"
-                          >Difficulty breathing or shortness of breath</label
+                          >Data Scientist</label
                         >
                       </div>
                     </div>
@@ -324,7 +334,7 @@
                         <label
                           class="form-check-label question__label"
                           for="q_5_chest"
-                          >Chest pain or pressure</label
+                          >Product Manager</label
                         >
                       </div>
                     </div>
@@ -340,7 +350,7 @@
                         <label
                           class="form-check-label question__label"
                           for="q_5_speech"
-                          >Loss of speech or movement</label
+                          >Other</label
                         >
                       </div>
                     </div>
@@ -356,8 +366,7 @@
                         <label
                           class="form-check-label question__label"
                           for="q_5_pale"
-                          >Pale, gray or blue-colored skin, lips or nail
-                          beds</label
+                          >I am not sure. (Totally fine - that's what we are here for! )</label
                         >
                       </div>
                     </div>
@@ -446,14 +455,15 @@
                 <div class="step">
                   <div class="mt-1">
                     <div class="closing-text">
-                      <h4>That's about it! Stay healthy!</h4>
+                      <h4>That's about it!</h4>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Porttitor massa id neque aliquam
-                        vestibulum morbi blandit.
+                        Thanks for letting us to know you! <br>
+                        Hey, we know career transitioning is stressful. But we are proud of you to take the first step! <br>
                       </p>
-                      <p>Click on the submit button to continue.</p>
+                      <p>
+                        Click on the submit button to continue. <br>
+                        Our career matching engine will work its magic. 
+                      </p>
                     </div>
                   </div>
                 </div>

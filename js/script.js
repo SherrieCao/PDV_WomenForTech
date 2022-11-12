@@ -81,7 +81,7 @@ submitBtn.addEventListener("click", () => {
 
   const timer = (ms) => new Promise((res) => setTimeout(res, ms));
 
-  timer(3000)
+  timer(500)
     .then(() => {
       bodyElement.classList.add("loaded");
     })
